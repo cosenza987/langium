@@ -2,7 +2,7 @@
  * For a detailed explanation regarding each configuration property and type check, visit:
  * https://vitest.dev/config/
  */
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vitest/config.js';
 
 export default defineConfig({
     test: {
