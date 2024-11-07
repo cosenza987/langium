@@ -1,0 +1,11 @@
+SELECT P.name
+FROM EMPLOYEE as P
+WHERE P.salary = ‘50000’
+
+SELECT P.*
+FROM EMPLOYEE as P
+WHERE P.salary = ‘50000’
+
+SELECT S.sname as supplier, P.pname as article
+FROM PRODUCT as P, SUPPLIER as S, SUPPLIES as A
+WHERE P.location = S.location

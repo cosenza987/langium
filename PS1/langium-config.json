@@ -1,0 +1,15 @@
+{
+    "projectName": "PracticalSession1",
+    "languages": [{
+        "id": "practical-session-1",
+        "grammar": "src/language/practical-session-1.langium",
+        "fileExtensions": [".langiumps1"],
+        "textMate": {
+            "out": "syntaxes/practical-session-1.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "src/syntaxes/practical-session-1.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}
