@@ -1,0 +1,10 @@
+def computer() {
+    motherboard(X570, AM4, DDR4, 50, USB, PS/2)
+    processor(Ryzen53600x, AM4, 95)
+    gpu(GTX1080ti, 250)
+    memory(32, 4000, DDR4)
+    hd(1000, 2000)
+    cd(1)
+    peripherals(screen - USB, mouse - USB, keyboard - PS/2, printer - USB)
+    psu(1000)
+}
